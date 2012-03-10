@@ -1,1 +1,1 @@
-This is a demo app for [RCoreData](https://github.com/bookworm/rcoredata)
+This is a demo app for [RCoreData](https://github.com/bookworm/rcoredata). Provides a list of Posts and CRUD; and that is all. Very basic.

@@ -1,0 +1,1 @@
+This is a demo app for [RCoreData](https://github.com/bookworm/rcoredata)

@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8A5A171815098D12002F26AE /* Posts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Posts.xib; sourceTree = "<group>"; };
+		8A5A171F150999BE002F26AE /* application.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = application.rb; sourceTree = "<group>"; };
+		8A5A1720150999BE002F26AE /* bootstrap.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = bootstrap.rb; sourceTree = "<group>"; };
+		8A5A1722150999BE002F26AE /* PostsView.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = PostsView.rb; sourceTree = "<group>"; };
+		8A5A1727150999BE002F26AE /* Post.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Post.rb; sourceTree = "<group>"; };
+		8A5A1728150999BE002F26AE /* Posts.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Posts.rb; sourceTree = "<group>"; };
+		8A7E8FC3150AA5FD006D66B0 /* Post.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Post.xib; sourceTree = "<group>"; };
+		8AC8679215096B740001E608 /* HotCocoa.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HotCocoa.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A5A171E150999BE002F26AE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A171F150999BE002F26AE /* application.rb */,
+				8A5A1720150999BE002F26AE /* bootstrap.rb */,
+				8A5A1721150999BE002F26AE /* controllers */,
+				8A5A1723150999BE002F26AE /* models */,
+				8A5A1725150999BE002F26AE /* views */,
+				8A5A1726150999BE002F26AE /* windows */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8A5A1721150999BE002F26AE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A1722150999BE002F26AE /* PostsView.rb */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8A5A1723150999BE002F26AE /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8A5A1725150999BE002F26AE /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8A5A1726150999BE002F26AE /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A1727150999BE002F26AE /* Post.rb */,
+				8A5A1728150999BE002F26AE /* Posts.rb */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		8AC8678515096B490001E608 = {
+			isa = PBXGroup;
+			children = (
+				8A5A171E150999BE002F26AE /* lib */,
+				8AC8679115096B740001E608 /* resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC8679115096B740001E608 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AC8679215096B740001E608 /* HotCocoa.icns */,
+				8A5A171815098D12002F26AE /* Posts.xib */,
+				8A7E8FC3150AA5FD006D66B0 /* Post.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8AC8678715096B490001E608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8AC8678A15096B490001E608 /* Build configuration list for PBXProject "Blog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AC8678515096B490001E608;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8AC8678C15096B490001E608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8AC8678D15096B490001E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC8678A15096B490001E608 /* Build configuration list for PBXProject "Blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC8678C15096B490001E608 /* Debug */,
+				8AC8678D15096B490001E608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC8678715096B490001E608 /* Project object */;
+}

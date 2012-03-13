@@ -18,11 +18,6 @@ Dir.glob("lib/controllers/*.rb").each do |file|
   require file
 end      
 
-# Load Views       
-Dir.glob("lib/views/*.rb").each do |file|
-  require file
-end     
-
 # Load Window Controllers  
 Dir.glob("lib/windows/*.rb").each do |file|
   require file
